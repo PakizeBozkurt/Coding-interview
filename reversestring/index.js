@@ -36,9 +36,15 @@ function reverse(str) {
 // return str.split("").reduce((reversed, character) =>
 //   character + reversed
 // , "");
-
+debugger;
+//add a 'debugger' statement in your function
+//call the function manually
+//at the terminal, run 'node inspect index.js'
+//to continue execution of the file, press 'c' then 'enter'
+//to launch a 'repl' session, type 'repl' then 'enter'
+//to exit the 'repl', press Control + C
 //short way
 return str.split("").reduce((rev, char) => char + rev, "");
 }
-
+reverse('asfd');
 module.exports = reverse;
