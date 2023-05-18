@@ -33,9 +33,12 @@ function reverse(str) {
 // return reversed;
 
 //another solution 
-return str.split("").reduce((reversed, character) =>
-  character + reversed
-, "");
+// return str.split("").reduce((reversed, character) =>
+//   character + reversed
+// , "");
+
+//short way
+return str.split("").reduce((rev, char) => char + rev, "");
 }
 
 module.exports = reverse;
