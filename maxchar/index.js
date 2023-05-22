@@ -13,11 +13,13 @@ const string = "Hello There!"
 const chars = {};
 
 for (let char of string) {
-    if (!chars[char]) {
-        chars[char] = 1;
-    } else {
-        chars[char] ++;
-    }
+    // if (!chars[char]) {
+    //     chars[char] = 1;
+    // } else {
+    //     chars[char] ++;
+    // }
+//Or falsely...
+chars[char] = chars[char] + 1 || 1;    
 }
 
 chars;
