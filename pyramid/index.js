@@ -26,7 +26,8 @@ if (level.length === 2 * n - 1) {
 
 const midpoint = Math.floor((2 * n -1) /2);
 let add;
-if (midpoint - row <= level.length)
+if (midpoint - row <= level.length && midpoint + row >= level.length) {
+    add = '#';
 }
 module.exports = pyramid;
 
