@@ -28,6 +28,8 @@ const midpoint = Math.floor((2 * n -1) /2);
 let add;
 if (midpoint - row <= level.length && midpoint + row >= level.length) {
     add = '#';
+} else {
+    add = ' ';
 }
 module.exports = pyramid;
 
