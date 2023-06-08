@@ -23,7 +23,7 @@ function cleanString(str) {
 ///Explanation:
 //A function called anagrams that checks if two strings, stringA and stringB, are anagrams of each other. 
 //An anagram is a word or phrase formed by rearranging the letters of another word or phrase.
-// The anagrams function takes two string parameters, stringA and stringB. 
+//The anagrams function takes two string parameters, stringA and stringB. 
 //It compares the cleaned versions of both strings using the cleanString function. 
 //If the cleaned versions are equal, it returns true, indicating that the strings are anagrams. 
 //Otherwise, it returns false.
