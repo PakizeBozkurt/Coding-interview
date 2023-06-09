@@ -47,4 +47,27 @@ debugger;
 return str.split("").reduce((rev, char) => char + rev, "");
 }
 reverse('asfd');
+
+
+//A function called reverse that takes a string str as input and returns the reversed version of that string. 
+
+//The function uses the split("") method to convert the input string str into an array of individual characters. 
+//The split("") method splits a string into an array of substrings, where each substring represents a single character of the original string.
+
+//The reduce() method is called on the resulting array. 
+//The reduce() method is used to reduce an array to a single value by applying a specified function to each element of the array.
+
+//The callback function used in reduce() takes two parameters: 
+//rev represents the accumulated value (the reversed string) and char represents the current character being iterated.
+
+//Inside the callback function, it concatenates the current character char with the accumulated value rev. 
+//By adding the current character at the beginning of the accumulated value, the resulting string will be the reverse of the original string.
+
+//The reduce() method iterates over each character in the array, applying the concatenation operation to build the reversed string.
+
+//Once the reduce() method finishes iterating over all characters, it returns the final accumulated value, which is the reversed string.
+
+//The reversed string is then returned as the result of the reverse function.
+
+
 module.exports = reverse;
