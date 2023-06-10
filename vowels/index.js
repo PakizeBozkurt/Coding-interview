@@ -29,4 +29,24 @@ function vowels(str) {
 
 //   return count;
 // }
+
+//The function vowels takes a parameter str, which represents the input string we want to count the vowels in.
+
+//It declares a variable count and initializes it to 0. 
+//This variable will keep track of the number of vowels found in the string.
+
+//It creates an array checker that contains the vowels ['a', 'e', 'i', 'o', 'u'].
+
+//The function enters a loop using the for...of loop syntax. 
+//It iterates over each character char of the input string str, which is converted to lowercase using the toLowerCase() method. 
+//This ensures that both uppercase and lowercase vowels are counted correctly.
+
+//Inside the loop, there is an if statement that checks whether the current character char is included in the checker array using the includes() method.
+// If it is, that means the character is a vowel, and the count variable is incremented by 1.
+
+//After iterating over all the characters in the string, the function exits the loop.
+
+// Finally, the function returns the value of the count variable, which represents the total count of vowels found in the input string.
+
+
 module.exports = vowels;
