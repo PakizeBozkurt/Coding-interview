@@ -34,28 +34,29 @@ function matrix(n) {
       counter++;
     }
     startRow++;
-  }
-  //Right column
-  for (let i = startRow; i <= endRow; i++) {
-    results[i][endCoulmn] = counter;
-    counter++;
-  }
-  endCoulmn--;
 
-  //Bottom row
-  for (let i = endCoulmn; i >= startCoulmn; i--) {
-    results[endRow][i] = counter;
-    counter++;
-  }
-  endRow--;
+    //Right column
+    for (let i = startRow; i <= endRow; i++) {
+      results[i][endCoulmn] = counter;
+      counter++;
+    }
+    endCoulmn--;
 
-  //Start column
-  for (let i = endRow; i >= startCoulmn; i--) {
-    results[i][startCoulmn] = counter;
-    counter++;
+    //Bottom row
+    for (let i = endCoulmn; i >= startCoulmn; i--) {
+      results[endRow][i] = counter;
+      counter++;
+    }
+    endRow--;
+
+    //Start column
+    for (let i = endRow; i >= startRow; i--) {
+      results[i][startCoulmn] = counter;
+      counter++;
+    }
+    startCoulmn++;
   }
-  startCoulmn++;
+  return results;
 }
-return results;
 
 module.exports = matrix;
