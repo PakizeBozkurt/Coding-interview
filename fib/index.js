@@ -15,7 +15,7 @@ function fib(n) {
         const a = result[i - 1];
         const b = result[i -2];
 
-        
+        result.push(a + b);        
     }
     return result[n];
 }
