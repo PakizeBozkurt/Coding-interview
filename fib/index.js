@@ -31,7 +31,8 @@ function fib(n) {
                                  // This extends the Fibonacci sequence in the array.
 //   }
 
-//   return result[n];
+//   return result[n];         //  The function returns the n-th Fibonacci number, which is the element at index n in the result array.
+
 // }
 module.exports = fib;
 
