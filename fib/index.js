@@ -22,7 +22,8 @@ function fib(n) {
 
 //   for (let i = 2; i <= n; i++) { // This is a for loop that starts with i set to 2 and runs until i becomes equal to n. 
                                     // This loop will calculate and populate the result array with Fibonacci numbers starting from the third number (since the first two numbers are already in the array).
-//     const a = result[i - 1];
+//     const a = result[i - 1];    // Inside the loop, a constant variable a is declared and assigned the value of the element at the (i - 1) index of the result array. 
+                                   // This is the previous Fibonacci number in the sequence.
 //     const b = result[i - 2];
 
 //     result.push(a + b);
