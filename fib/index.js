@@ -27,7 +27,8 @@ function fib(n) {
 //     const b = result[i - 2];   // Another constant variable b is declared and assigned the value of the element at the (i - 2) index of the result array. 
                                   // This is the Fibonacci number before the previous one.
 
-//     result.push(a + b);
+//     result.push(a + b);       // The sum of the previous two Fibonacci numbers (a and b) is calculated, and the result is appended to the result array using the push method. 
+                                 // This extends the Fibonacci sequence in the array.
 //   }
 
 //   return result[n];
