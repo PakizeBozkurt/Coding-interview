@@ -17,7 +17,7 @@ function fib(n) {
 
 
 // function fib(n) {
-//   const result = [0, 1];
+//   const result = [0, 1]; const result = [0, 1]; // In this line, an array named result is declared and initialized with the first two Fibonacci numbers, 0 and 1. This array will be used to store the Fibonacci sequence as it is calculated.
 
 //   for (let i = 2; i <= n; i++) {
 //     const a = result[i - 1];
