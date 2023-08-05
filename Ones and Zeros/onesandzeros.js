@@ -26,6 +26,10 @@ const binaryArrayToNumber = (arr) => {
 //effectively converting the binary digits into a string representation. 
 // For example, if arr is [1, 0, 1], the resulting str would be '101'.
 
+//parseInt(str, 2): This part of the code takes the string str and converts it into an integer (decimal) using the parseInt function.
+// The second argument 2 specifies that the string should be treated as a binary number. 
+//The function interprets the string '101' as a binary number and converts it to its decimal equivalent, which is 5.
+
 console.log((binaryArrayToNumber([0,0,0,1])), //1
 console.log((binaryArrayToNumber([0,0,1,1])),//2
 console.log((binaryArrayToNumber([1,1,1,1])),//15
