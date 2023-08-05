@@ -22,6 +22,10 @@ const binaryArrayToNumber = (arr) => {
     return parseInt(str,2)
 };
 
+// let str = arr.join('');: This line combines all the elements in the input array arr into a single string, 
+//effectively converting the binary digits into a string representation. 
+// For example, if arr is [1, 0, 1], the resulting str would be '101'.
+
 console.log((binaryArrayToNumber([0,0,0,1])), //1
 console.log((binaryArrayToNumber([0,0,1,1])),//2
 console.log((binaryArrayToNumber([1,1,1,1])),//15
